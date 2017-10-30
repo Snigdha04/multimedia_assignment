@@ -11,7 +11,7 @@ cap = cv2.VideoCapture(0) # Set Capture Device, in case of a USB Webcam try 1, o
 # cap.set(4,720)
 
 # The above step is to set the Resolution of the Video. The default is 640x480.
-# This example works with a Resolution of 640x480.
+# here we have taken a Resolution of 640x480.
 
 while(True):
     # Capture frame-by-frame
