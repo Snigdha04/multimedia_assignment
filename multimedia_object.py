@@ -26,7 +26,7 @@ while(True):
     gray = cv2.GaussianBlur(gray,(5,5),0);
     gray = cv2.medianBlur(gray,5)
 
-    # Adaptive Guassian Threshold is to detect sharp edges in the Image. For more information Google it.
+    # Adaptive Guassian Threshold is to detect sharp edges in the Image.
     gray = cv2.adaptiveThreshold(gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,\
         cv2.THRESH_BINARY,11,3.5)
 
