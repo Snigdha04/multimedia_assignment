@@ -1,7 +1,3 @@
-%% Video Stabilization
-% This example shows how to remove the effect of camera motion from a video stream.
-
-%   Copyright 2006-2014 The MathWorks, Inc.
 
 %% Introduction
 % In this example we first define the target to track. In this case, it is the
